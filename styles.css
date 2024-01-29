@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+h1 {
+    margin-bottom: 30px;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+button:hover {
+    background-color: #45a049;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr.finished {
+    background-color: #A1EAA4;
+}
+tr.ongoing {
+    background-color: #B3D1FF;
+}
+tr.delayed {
+    background-color: #FFC7A6;
+}
+.status-select {
+    font-size: 14px;
+}
+.comment-input {
+    width: 100%;
+}
